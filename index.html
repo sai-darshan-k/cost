@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agriculture IoT Solutions Pricing</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+            line-height: 1.4;
+            padding: 15px;
+            background-color: #f8f9fa;
+            margin: 0;
+        }
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            background-color: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c5e2e;
+            text-align: center;
+            margin-bottom: 15px;
+            font-size: 24px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 10px 0;
+            font-size: 13px;
+        }
+        th, td {
+            padding: 6px 8px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #2c5e2e;
+            color: white;
+            font-weight: 600;
+        }
+        .section-header {
+            background-color: #4a824c;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+        }
+        .optional-header {
+            background-color: #7ba67c;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+        }
+        .summary-section {
+            background-color: #e9f2e9;
+        }
+        .summary-row {
+            font-weight: bold;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #2c5e2e;
+            color: white;
+            padding: 8px 16px;
+            border: none;
+            border-radius: 4px;
+            font-size: 14px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin-top: 10px;
+        }
+        .btn:hover {
+            background-color: #1e401f;
+        }
+        .two-column-layout {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            justify-content: space-between;
+        }
+        .column {
+            flex: 1;
+            min-width: 300px;
+        }
+        .notes-col {
+            width: 22%;
+            max-width: 250px;
+        }
+        .component-col {
+            width: 22%;
+        }
+        .type-col {
+            width: 15%;
+        }
+        .cost-col {
+            width: 18%;
+        }
+        .charge-col {
+            width: 23%;
+        }
+        .highlight {
+            background-color: #f0f7f0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Agriculture IoT Solutions Pricing</h1>
+        
+        <div class="two-column-layout">
+            <!-- First Column: Mandatory Components -->
+            <div class="column">
+                <table id="mandatoryTable">
+                    <thead>
+                        <tr>
+                            <th colspan="4" class="section-header">Mandatory Components</th>
+                        </tr>
+                        <tr>
+                            <th class="component-col">Component/Service</th>
+                            <th class="type-col">Type</th>
+                            <th class="cost-col">Cost (INR)</th>
+                            <th class="charge-col">Charge/Person</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Soil Moisture Sensor</td>
+                            <td>Hardware (One-Time)</td>
+                            <td>200</td>
+                            <td>In INR 5,000 (All)</td>
+                        </tr>
+                        <tr>
+                            <td>DHT22 (Temp/Humidity)</td>
+                            <td>Hardware (One-Time)</td>
+                            <td>150</td>
+                            <td>In INR 5,000 (All)</td>
+                        </tr>
+                        <tr>
+                            <td>Rain Sensor</td>
+                            <td>Hardware (One-Time)</td>
+                            <td>100</td>
+                            <td>In INR 5,000 (All)</td>
+                        </tr>
+                        <tr>
+                            <td>ESP32 with Board</td>
+                            <td>Hardware (One-Time)</td>
+                            <td>500</td>
+                            <td>In INR 5,000 (All)</td>
+                        </tr>
+                        <tr>
+                            <td>Relay</td>
+                            <td>Hardware (One-Time)</td>
+                            <td>500</td>
+                            <td>In INR 5,000 (All)</td>
+                        </tr>
+                        <tr>
+                            <td>Contactor</td>
+                            <td>Hardware (One-Time)</td>
+                            <td>1,500</td>
+                            <td>In INR 5,000 (All)</td>
+                        </tr>
+                        <tr>
+                            <td>Pole</td>
+                            <td>Hardware (One-Time)</td>
+                            <td>300</td>
+                            <td>In INR 5,000 (All)</td>
+                        </tr>
+                        <tr>
+                            <td>Top Sheet</td>
+                            <td>Hardware (One-Time)</td>
+                            <td>100</td>
+                            <td>In INR 5,000 (All)</td>
+                        </tr>
+                        <tr>
+                            <td>GSM Module</td>
+                            <td>Hardware (One-Time)</td>
+                            <td>500</td>
+                            <td>In INR 5,000 (All)</td>
+                        </tr>
+                        <tr>
+                            <td>Contingency</td>
+                            <td>Hardware (One-Time)</td>
+                            <td>1,050</td>
+                            <td>In INR 5,000 (All)</td>
+                        </tr>
+                        <tr>
+                            <td>SIM Data Plan</td>
+                            <td>Subscription</td>
+                            <td>0 (user-paid)</td>
+                            <td>200/month (All)</td>
+                        </tr>
+                        <tr>
+                            <td>Service & Maintenance</td>
+                            <td>Subscription</td>
+                            <td>0 (user-paid)</td>
+                            <td>99/month (All)</td>
+                        </tr>
+                        <tr>
+                            <td>Cloud (Vercel)</td>
+                            <td>Subscription</td>
+                            <td>0 (free tier)</td>
+                            <td>0 (All)</td>
+                        </tr>
+                        <tr>
+                            <td>Soil Testing Tools</td>
+                            <td>Incentive (One-Time)</td>
+                            <td>7,000 (shared)</td>
+                            <td>In INR 5,000 (All)</td>
+                        </tr>
+                        <tr>
+                            <td>Leaf Disease Diagnosis</td>
+                            <td>Software</td>
+                            <td>0 (in platform)</td>
+                            <td>In 99/month (All)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <!-- Second Column: Optional Services and Summary -->
+            <div class="column">
+                <table id="optionalTable">
+                    <thead>
+                        <tr>
+                            <th colspan="4" class="optional-header">Optional Services</th>
+                        </tr>
+                        <tr>
+                            <th class="component-col">Component/Service</th>
+                            <th class="type-col">Type</th>
+                            <th class="cost-col">Cost (INR)</th>
+                            <th class="charge-col">Charge/Person</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Solar Panel</td>
+                            <td>Hardware (One-Time)</td>
+                            <td>2,000</td>
+                            <td>0 (M), 2,500 (S,M,L)</td>
+                        </tr>
+                        <tr>
+                            <td>Battery</td>
+                            <td>Hardware (One-Time)</td>
+                            <td>1,500</td>
+                            <td>0 (M), 2,000 (S,M,L)</td>
+                        </tr>
+                        <tr class="">
+                            <td>Camera</td>
+                            <td>Hardware (One-Time)</td>
+                            <td>2,000</td>
+                            <td>0 (M), 2,500 (S,M,L)</td>
+                        </tr>
+                        <tr class="">
+                            <td>Wind Sensor</td>
+                            <td>Hardware (One-Time)</td>
+                            <td>3,200</td>
+                            <td>0 (M,S), 3,500 (M,L)</td>
+                        </tr>
+                        <tr class="">
+                            <td>Rain Gauge</td>
+                            <td>Hardware (One-Time)</td>
+                            <td>5,000</td>
+                            <td>5,500 (All)</td>
+                        </tr>
+                        <tr>
+                            <td>Wall-Mounted Display</td>
+                            <td>Hardware (One-Time)</td>
+                            <td>2,000</td>
+                            <td>0 (M,S), 2,500 (M,L)</td>
+                        </tr>
+                        <tr>
+                            <td>Premium Support</td>
+                            <td>Subscription</td>
+                            <td>0 (in platform)</td>
+                            <td>0 (M,S), 500/yr (M,L)</td>
+                        </tr>
+                        <tr>
+                            <td>Advanced Analytics</td>
+                            <td>Subscription</td>
+                            <td>0 (in platform)</td>
+                            <td>0 (M), 1,000/yr (S,M,L)</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <table id="summaryTable" style="margin-top: 15px;">
+                    <thead>
+                        <tr>
+                            <th colspan="4" class="section-header">Cost Summary</th>
+                        </tr>
+                        <tr>
+                            <th class="component-col">Category</th>
+                            <th colspan="3">Details (INR)</th>
+                        </tr>
+                    </thead>
+                    <tbody class="summary-section">
+                        <tr class="summary-row">
+                            <td>Total One-Time (Mandatory)</td>
+                            <td colspan="3">5,000 (All Farmers)</td>
+                        </tr>
+                        <tr class="summary-row">
+                            <td>Total Annual (Mandatory)</td>
+                            <td colspan="3">3,588 (299/month) (All)</td>
+                        </tr>
+                        <tr class="summary-row">
+                            <td>First-Year Mandatory</td>
+                            <td colspan="3">8,588 (All)</td>
+                        </tr>
+                        <tr class="summary-row">
+                            <td>Optional One-Time</td>
+                            <td colspan="3">5,500 (M), 12,500 (S), 16,000 (M,L)</td>
+                        </tr>
+                        <tr class="summary-row">
+                            <td>Optional Annual</td>
+                            <td colspan="3">0 (M), 1,000 (S), 1,500 (M,L)</td>
+                        </tr>
+                        <tr class="summary-row">
+                            <td>Total First-Year</td>
+                            <td colspan="3">14,088 (M), 22,088 (S), 26,088 (M,L)</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <div>
+                    <p style="font-size: 12px; margin-top: 10px;">
+                        <strong>Note:</strong> M = Marginal, S = Small, L = Large farmers. 
+                        All prices in INR. PM-KUSUM subsidies (₹2,576–4,294) available.
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <button id="downloadBtn" class="btn" onclick="downloadTableAsJPG()">Download as JPG</button>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script>
+        function downloadTableAsJPG() {
+            const element = document.querySelector('.container');
+            const downloadBtn = document.getElementById('downloadBtn');
+            
+            // Hide the button temporarily before capture
+            downloadBtn.style.display = 'none';
+            
+            html2canvas(element, {
+                scale: 2, // Higher resolution
+                logging: false,
+                useCORS: true,
+                backgroundColor: "#ffffff"
+            }).then(canvas => {
+                // Create an image and set it's source to the canvas data
+                const imageData = canvas.toDataURL('image/jpeg', 0.9);
+                
+                // Create a link element to download the image
+                const link = document.createElement('a');
+                link.href = imageData;
+                link.download = 'Agriculture_IoT_Pricing.jpg';
+                link.click();
+                
+                // Keep the button hidden as requested
+            });
+        }
+    </script>
+</body>
+</html>
+/* Background images for each node */
+        .central-node {
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu2doOSkXGxsjw5eGI5Exjp-GS3pJGzDFHsELXFR5WAnF3LiyLJg&s=10&ec=72940545SKWHzWnj3fqVMm44XLHFUO8nsPka52IVhLppdWX4A8fafyW/a2qHM2I2T+C0itqooYEDQp2XS4TQCVQDTuubxKKXCMUZiNIPsJDaRvAE7j2H810fFMqIWTwuhlbmjkFnBTOO5ASwVEdRTMmiddjxcKRp4LlqSqdgVf/AA+rceryHsSHYX2P6FdM0pRe5Acd5TzVTKSnDS5sMpf05bpmkvazvYNgqnkrLM7EHQFxNEWONQCey0WNj3G67aalZJnc0lhf54ABDvaDcH27qOOhjawBxuwG4jDQ1t/YBr71m9J791mL03uuyaldI6ihdNfpDG0uvve2qk0DCXEADclKDdYHlDXPc5uGUl3SzEB9u/h49y1lLajYglD8fxEMje5tJCdSOI5+0ro2BrGtY0BrWiwA4BVsLomUFG2Bpu7d7vSKn4pQjWXyBNvqmndDdE4qwGtKz8bw4YjSANAE0XajPPu9hV06OTuCTimqYGVgeJtqWdVmNqiIWsdyB+oWuea5zG8PfBUtxWk7L2EGS3/6/QrXw2uixCkbNGRfZ7fRdyUQbXwYFnMhLZItQKqQkoQsmbozMSxV1EQ0RZyeJdZc/ieKVlQyxmcxh+6w2Qhc8pOzObKctupkW4LIqOy1oCEI0jJj2MEbQRxViGNuruKEKmIfRxtllkLuCiqmdExoBPnIQkvsPotVr+ipG5RuFRo4wSQeKEIj9Q7JRXVOH1jZKSYxvGlxyWvD5QYs9mtY69t8rfBCE22kqETR49inVyTVuLr75W+CZUeUGKsYLVbr88rfBKhQpO+Shk+L19VSBlRO57CQSLAX+AXa4OWnB6UsZlDmAkd/FIhaaOZOwRfvdqVuoQhdAwHEJL2NkIQAwi2qU+ahCYGJ5WQxSYWDIwFwfZruXP8AJcvBjmKMc2JtY/IwWALQdPghC5dVtSdCZM3ygxUOcDVuP/Vvgp2Y3iRZc1TvwjwQhZOUvYIhgxzFDmBrHGx9FvgtTyZcJq+d8rc8uTMHk6i51+KEK4NuasEdOwalI4BCF2jFGoTidEISAjO6eEITAQtDmuDgCCLEHiuAp6mahqZTRSOhbI7Vu+l9N0IXPruqAvfxnEfWnfhb4JEIXJvl7Gf/2Q==');
+        }
+        .node-1 {
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-upzULT5qcqpwVQh9NjxVzMVXPuT6J7heqHOLF1ZDv5IbMbV22g&s=10&ec=72940545');
+        }
+        .node-2 {
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz_SV6ciH3HfMRnxFeohf8vEjhOezxwjSuEriEaFAinyrvUIuuWQ&s=10&ec=72940545');
+        }
+        .node-3 {
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMtSCPSokewkYgowa-oXUR07nUTsXFsD8iV1D08iJdbtITBHFxOg&s=10&ec=72940545');
+        }
+        .node-4 {
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAMZTQcKmVxS-tPiLPc9rKyRHq4kRAOJpsBX2NH4_5jWOrz7UjgA&s=10&ec=72940545');
+        }
+        .node-5 {
+            background-image: url('data:image/jpeg;base64,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');
+        }
+        .node-6 {
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBMPXuPFVWczcQrr1JQlkuc7bzfZ3HWquzBKa2zuc-3waMjiSWGQ&s=10&ec=72940545');
+        }
+        .node-7 {
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtuvc2QJTIzuOmYkT6T5P0WvNYY2QzVGolla48Ud4Nn3_eiCBPzg&s=10&ec=72940545');
+        }
+        .node-8 {
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbmwpdcdO9OEyIcMrFhm1jdePPh3_oPt6JKaY9vSU4bWVeuV1R0Q&s=10&ec=72940545');
+        }
+        .node-9 {
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3x4-EwDMtMuspqD5U0Pl4M6x7t0VJDMe0gUKw5FApZ5waYWwM6A&s=10&ec=72940545');
+        }
